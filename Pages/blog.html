@@ -1,0 +1,31 @@
+<div class="jumbotron text-center">
+   <H1> Blog Page </H1>
+
+   <p>{{message}}</p>
+     <div class="Screendiv">
+         <div class="selfdiv">
+              <p>Part 1</p>
+          </div>
+         <div class="selfdiv">
+            <div ng-init="names=['Gajanan','Amey','Arjun']">
+                 <p>List of Users:</p>
+                    <ul>
+                        <li ng-repeat="x in names">
+                         {{ x }}
+                         </li>
+                    </ul>
+             </div> 
+         </div>
+             <div class="selfdiv">
+                <p>Part 3</p>
+             </div>
+     </div>
+     <div class ="row">
+          <div class="col-md-12">
+                 <div class="col-md-3"><p>First Column</p></div>
+                  <div class="col-md-3"><p>Second Column</p></div>
+                 <div class="col-md-3"><p>Third Column</p></div>
+                   <div class="col-md-3"><p>Fourth Column</p></div>
+          </div>
+   </div>
+</div>

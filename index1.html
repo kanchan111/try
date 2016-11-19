@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/custom.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    <script src="app1.js"></script>
+  </head>
+  <body ng-controller="mainController">
+
+      <nav class="navbar navbar-default">
+          <div class="container">
+           <div class="navbar-header"> 
+               <a class="navbar-brand" href="/">  Assignment</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"> Home </a></li>
+                 <li><a href="#blog"> Blog </a></li>
+                  <li><a href="#about"> About </a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <div id="main">
+
+          <div ng-view></div>
+      </div>
+
+      <footer class="text-center">
+          <p>copyright @ 2016</p>
+      </footer>
+
+
+    
+  </body>
+</html>

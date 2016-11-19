@@ -1,0 +1,46 @@
+body{
+	background-color:#ddd;
+}
+.heading {
+    padding: 10px 20px;
+    background-color: #928a8a;
+}
+.heading h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+}
+.container {
+    width: 900px;
+}
+.selfdiv {
+    width: 33%;
+    float: left;
+}
+.user-list h3 {
+    margin: 0;
+    color: #f93c3c;
+    padding: 15px 0px 15px 20px;
+    font-size: 20px;
+}
+.nopadding{
+	padding:0px;
+}
+#user{
+	background:#fff;
+}
+.user-list {
+    background: #fff;
+	    padding: 0 15px 10px 5px;
+}
+.user-list ul {
+    padding-left: 15px;
+}
+.user-list ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+}
+
